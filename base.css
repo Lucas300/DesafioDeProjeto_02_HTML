@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(168, 168, 168);;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(168, 168, 168);
+    padding: 30px 30px 0px;  
+    padding-right: 100px; 
+    font-size: 20px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    margin-bottom: -370px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    min-height: 150px;
+    color: #f1f1f1;
+}
+.footer table{
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menu ul li a{
+    text-decoration: none; 
+    color: black;
+}
+a{
+    margin-bottom: 100px;
+}
+
+.texto-principal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 10px;
+    padding-left: 20px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+.titulo{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.espacamento{
+    padding-left: 80px;
+    
+}
+.espacamento-contato{
+    padding-right: 150px;
+}
+.tabela{
+    padding-top: 80px;
+    text-align:start;
+}
+.sobrepor:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 10px;
+}
+.item{
+   text-decoration: none;
+    color: aliceblue;
+}
+.fundo{
+    background-color: antiquewhite;
+    color: black;
+}
+.fundo{
+    background-color: rgb(175, 228, 210);
+}
